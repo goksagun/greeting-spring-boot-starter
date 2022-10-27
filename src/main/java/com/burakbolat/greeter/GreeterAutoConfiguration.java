@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class GreeterAutoConfiguration {
 
     @Autowired
-    GreeterProperties greeterProperties;
+    private GreeterProperties greeterProperties;
 
     @Bean
     @ConditionalOnMissingBean
@@ -47,7 +47,7 @@ public class GreeterAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    public Greeter greeting(GreetingConfig greetingConfig) {
+    public Greeter greeter(GreetingConfig greetingConfig) {
         return new Greeter(greetingConfig);
     }
 }
