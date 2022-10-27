@@ -1,6 +1,7 @@
 package com.burakbolat.greeter;
 
 import com.burakbolat.greeter.config.GreetingConfig;
+import com.burakbolat.greeter.service.Greeter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

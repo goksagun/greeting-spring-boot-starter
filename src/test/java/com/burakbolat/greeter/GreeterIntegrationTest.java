@@ -4,6 +4,7 @@ import static com.burakbolat.greeter.GreeterConfigParams.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.burakbolat.greeter.config.GreetingConfig;
+import com.burakbolat.greeter.service.Greeter;
 import java.time.LocalDateTime;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
