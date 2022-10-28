@@ -3,9 +3,7 @@ package com.burakbolat.greeter.service;
 import com.burakbolat.greeter.GreeterConfigParams;
 import com.burakbolat.greeter.config.GreetingConfig;
 import java.time.LocalDateTime;
-import org.springframework.stereotype.Service;
 
-@Service
 public class Greeter {
 
     private GreetingConfig greetingConfig;

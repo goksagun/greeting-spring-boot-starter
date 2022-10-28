@@ -2,7 +2,7 @@ package com.burakbolat.greeter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "example.greeting")
+@ConfigurationProperties(prefix = "burakbolat.greeter")
 public class GreeterProperties {
 
     private String userName;
