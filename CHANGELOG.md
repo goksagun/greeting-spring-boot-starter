@@ -1,3 +1,6 @@
+## 0.1.3 (October 28, 2022)
+  - Fix greeting snapshot versioning
+
 ## 0.1.2 (October 28, 2022)
   - Fix greeting configuration bean error
 
