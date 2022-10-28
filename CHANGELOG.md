@@ -1,3 +1,6 @@
+## 0.1.2 (October 28, 2022)
+  - Fix greeting configuration bean error
+
 ## 0.1.1 (October 28, 2022)
   - Add missing Service annotation
 
