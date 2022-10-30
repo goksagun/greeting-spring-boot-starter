@@ -1,10 +1,10 @@
-package com.burakbolat.greeter;
+package com.goksagun.greeter;
 
-import static com.burakbolat.greeter.GreeterConfigParams.*;
+import static com.goksagun.greeter.GreeterConfigParams.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.burakbolat.greeter.config.GreetingConfig;
-import com.burakbolat.greeter.service.Greeter;
+import com.goksagun.greeter.config.GreetingConfig;
+import com.goksagun.greeter.service.Greeter;
 import java.time.LocalDateTime;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.burakbolat.greeter.GreeterAutoConfiguration
+  com.goksagun.greeter.GreeterAutoConfiguration

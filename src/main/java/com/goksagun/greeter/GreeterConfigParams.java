@@ -1,4 +1,4 @@
-package com.burakbolat.greeter;
+package com.goksagun.greeter;
 
 public class GreeterConfigParams {
 

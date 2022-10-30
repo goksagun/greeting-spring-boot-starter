@@ -1,8 +1,8 @@
-package com.burakbolat.greeter;
+package com.goksagun.greeter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "burakbolat.greeter")
+@ConfigurationProperties(prefix = "goksagun.greeter")
 public class GreeterProperties {
 
     private String userName;

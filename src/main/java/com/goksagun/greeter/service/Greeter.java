@@ -1,7 +1,7 @@
-package com.burakbolat.greeter.service;
+package com.goksagun.greeter.service;
 
-import com.burakbolat.greeter.GreeterConfigParams;
-import com.burakbolat.greeter.config.GreetingConfig;
+import com.goksagun.greeter.GreeterConfigParams;
+import com.goksagun.greeter.config.GreetingConfig;
 import java.time.LocalDateTime;
 
 public class Greeter {

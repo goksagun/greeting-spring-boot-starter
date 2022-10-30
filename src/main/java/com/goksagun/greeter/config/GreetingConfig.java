@@ -1,4 +1,4 @@
-package com.burakbolat.greeter.config;
+package com.goksagun.greeter.config;
 
 import java.util.Properties;
 

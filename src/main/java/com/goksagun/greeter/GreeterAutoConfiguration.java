@@ -1,7 +1,7 @@
-package com.burakbolat.greeter;
+package com.goksagun.greeter;
 
-import com.burakbolat.greeter.config.GreetingConfig;
-import com.burakbolat.greeter.service.Greeter;
+import com.goksagun.greeter.config.GreetingConfig;
+import com.goksagun.greeter.service.Greeter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
