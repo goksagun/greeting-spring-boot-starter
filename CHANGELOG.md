@@ -1,3 +1,7 @@
+## 0.1.4 (October 31, 2022)
+  - Rename package name
+  - Add autoconfigure dependencies
+
 ## 0.1.3 (October 28, 2022)
   - Fix greeting snapshot versioning
 
