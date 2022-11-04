@@ -2,6 +2,8 @@ package com.goksagun.greeter;
 
 import com.goksagun.greeter.config.GreetingConfig;
 import com.goksagun.greeter.service.Greeter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -16,6 +18,8 @@ public class GreeterAutoConfiguration {
 
     @Autowired
     private GreeterProperties greeterProperties;
+
+    Logger log = LoggerFactory.getLogger(GreeterAutoConfiguration.class);
 
     @Bean
     @ConditionalOnMissingBean
@@ -49,6 +53,7 @@ public class GreeterAutoConfiguration {
     @Bean
     @ConditionalOnMissingBean
     public Greeter greeter(GreetingConfig greetingConfig) {
+        log.info("Greeter instantiated with default config");
         return new Greeter(greetingConfig);
     }
 }
